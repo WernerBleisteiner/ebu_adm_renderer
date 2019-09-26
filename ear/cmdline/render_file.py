@@ -197,6 +197,7 @@ class OfflineRenderDriver(object):
         output_monitor = PeakMonitor(n_channels)
 
         with openBw64Adm(input_file) as infile:
+            infile.adm.validate()
             if self.enable_block_duration_fix:
                 timing_fixes.fix_blockFormat_timings(infile.adm)
 
