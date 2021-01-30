@@ -1,0 +1,4 @@
+speakers:
+    - {channel: 0, names: M+045, position: {az: 45.0, el: 0.0, r: 2.0 }}
+    - {channel: 1, names: M-045, position: {az: -45.0, el: 0.0, r: 2.0 }}
+screen: null
